@@ -14,25 +14,26 @@ For all users the first thing you are going to need is to install git. If you al
 <br>
 Once you are on the page select the corresponding download link to the operating system of your own machine and follow the instructions.
 <br>
-After having installed the software and have created your own github account, you will now have to link your account to your local machine account and 
+After having installed the software and have created your own github account, you will now have to link your account to your local machine and you can do this by following the instructions at this link:  
+
+<a href ="https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" >SSH Key</a>
+
 
 ### Installing
 
-Now that you have git installed and you have configured your account to your local machine your next step will be to
-
-Say what the step will be
+Now that you have git installed and you have configured your account to your local machine your next step will be to click on the clone or download button on the page of this repository and click on the clipboard symbol to copy the link. Next open up terminal (mac) or bash (windows), navigate to the directory you want your cloned directory to reside at, and type in the following code:
 
 ```
-Give the example
+git clone
 ```
 
-And repeat
+Then paste the copied link.
 
 ```
-until finished
+git clone git@github.com:RoyceWilliams510/code-refactor.git
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Now you will have the cloned directory on your local machine and you can open it up with vscode or any other text editor to examine and edit it's contents.
 
 
 ## Built With
@@ -53,14 +54,10 @@ End with an example of getting some data out of the system or using it for a lit
 - [Github](https://github.com/RoyceWilliams510/)
 - [LinkedIn](https://www.linkedin.com/in/royce-williams-3334261ab/)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
 
 This project is licensed under the MIT License 
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code, libraries, packages, or UI was used  / inspired from
-* Inspiration
-* etc
+* Manuel for clarifying the README.md file guidelines

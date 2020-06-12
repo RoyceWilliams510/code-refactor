@@ -33,11 +33,7 @@ nav {
 }
 
 
-/* .header div ul {
-    list-style-type: none;
-} */
-
-ul li {
+li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -114,7 +110,6 @@ article{
     background-color: #0072bb;
     color: #ffffff;
 }
-
 
 
 h2 {
